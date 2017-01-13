@@ -49,7 +49,12 @@ var settings = module.exports = {
     // Serve up the welcome page
     httpStatic: path.join(__dirname,"public"),
 
-    functionGlobalContext: { },
+    
+    functionGlobalContext: {
+        underscore: require('underscore'),
+        moment: require('moment'),
+        moment: require('easyimage')
+    },
 
     storageModule: require("./couchstorage")
 }
