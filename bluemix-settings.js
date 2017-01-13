@@ -51,9 +51,10 @@ var settings = module.exports = {
 
     
     functionGlobalContext: {
+    	process: process,
         underscore: require('underscore'),
         moment: require('moment'),
-        moment: require('easyimage')
+        easyimage: require('easyimage')
     },
 
     storageModule: require("./couchstorage")
