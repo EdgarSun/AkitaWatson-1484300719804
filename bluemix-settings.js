@@ -55,8 +55,9 @@ var settings = module.exports = {
         underscore: require('underscore'),
         //moment: require('moment'),
         easyimage: require('easyimage'),
-        yahoofinance: require('yahoo-finance'),
-        googlejwt: require('google-oauth-jwt')
+        //googlejwt: require('google-oauth-jwt'),
+        yahoofinance: require('yahoo-finance')
+        
     },
 
     storageModule: require("./couchstorage")

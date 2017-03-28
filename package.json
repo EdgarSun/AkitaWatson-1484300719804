@@ -18,8 +18,7 @@
     "redis": "~0.10.1",
     "underscore": "1.8.x",
     "when": "~3.x",
-    "yahoo-finance": "0.2.x",
-    "google-oauth-jwt": "0.2.x"
+    "yahoo-finance": "0.2.x"
   },
   "engines": {
     "node": "4.x"
