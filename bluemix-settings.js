@@ -54,7 +54,8 @@ var settings = module.exports = {
     	process: process,
         underscore: require('underscore'),
         moment: require('moment'),
-        easyimage: require('easyimage')
+        easyimage: require('easyimage'),
+        yahoofinance: require('yahoo-finance')
     },
 
     storageModule: require("./couchstorage")
