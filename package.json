@@ -17,8 +17,7 @@
     "node-red-nodes-cf-sqldb-dashdb": "0.x",
     "easyimage": "2.x",
     "underscore": "1.8.x",
-    "yahoo-finance": "0.2.x",
-    "google-oauth-jwt": "0.2.x"
+    "yahoo-finance": "0.2.x"
   },
   "engines": {
     "node": "4.x"

@@ -53,9 +53,8 @@ var settings = module.exports = {
     functionGlobalContext: {
     	process: process,
         underscore: require('underscore'),
-        //moment: require('moment'),
         easyimage: require('easyimage'),
-        googlejwt: require('google-oauth-jwt'),
+        //googlejwt: require('google-oauth-jwt'),
         yahoofinance: require('yahoo-finance')
         
     },
