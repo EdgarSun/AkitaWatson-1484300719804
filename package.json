@@ -20,7 +20,7 @@
     "yahoo-finance": "0.2.x"
   },
   "engines": {
-    "node": "4.x"
+    "node": "6.x"
   },
   "name": "node-red-bluemix",
   "scripts": {
